@@ -1,62 +1,196 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Claudia Pacheco - Lupinos</title>
-    <!-- Estilização será adicionada em tarefa futura -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claudia Pacheco</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
-      <h1>Claudia Pacheco</h1>
-      <nav><a href="site.html">Voltar à página principal</a></nav>
+      <div class="container nav">
+        <h2 class="logo">Lupinos</h2>
+
+        <nav>
+          <a href="#sobre">Quem sou</a>
+          <a href="#hobbies">Hobbies</a>
+          <a href="#filmes">Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
     </header>
+
     <main>
-      <img src="claudia.jpg" alt="Foto de Claudia" width="200" />
-      <p>
-        Sou estudante de Sistemas de Informação, com interesse em
-        desenvolvimento backend e segurança. Estou em transição de carreira, de
-        Relações Internacionais para a área de tecnologia, e trabalho atualmente
-        com cibersegurança. Gosto de passar tempo com minha família e amigos,
-        viajar, fazer atividades sozinha, pilotar minha moto, fazer carinho em
-        bichinhos e comer bem.
-      </p>
+      <!-- HERO -->
 
-      <h3>Hobbies</h3>
-      <ul>
-        <li>Andar de moto</li>
-        <li>Ir à praia</li>
-        <li>Fazer esportes</li>
-        <li>Ler</li>
-        <li>Jogos em grupo</li>
-      </ul>
+      <section class="hero container" id="sobre">
+        <div class="hero-image">
+          <img src="assets/img/claudia.jpg" alt="Foto de Claudia" />
+        </div>
 
-      <h3>Top 5 - Filmes</h3>
-      <ol>
-        <li>O Poderoso Chefão II</li>
-        <li>Irmão Urso</li>
-        <li>Mamma Mia!</li>
-        <li>Before Sunset</li>
-        <li>Incendies</li>
-      </ol>
+        <div class="hero-text">
+          <h2>Sobre mim</h2>
 
-      <section>
-        <h3>Feedbacks</h3>
+          <p>
+            Estudante de Sistemas de Informação e apaixonada por desenvolvimento
+            backend e segurança da informação. Atualmente trabalho com
+            Cybersecurity e estou construindo minha carreira em Engenharia de
+            Software.
+          </p>
+        </div>
+      </section>
+
+      <!-- HOBBIES -->
+
+      <section class="container" id="hobbies">
+        <div class="section-title">
+          <h2>Hobbies</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Moto</h3>
+            <p>Amo sair por aí pilotando minha motinha.</p>
+          </div>
+
+          <div class="card">
+            <h3>Praia</h3>
+            <p>Meu lugar favorito sempre!</p>
+          </div>
+
+          <div class="card">
+            <h3>Esportes</h3>
+            <p>
+              Musculação, natação, pilates, lutas e tudo mais que o Gympass
+              possa oferecer.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Leitura</h3>
+            <p>Principalmente livros de suspense.</p>
+          </div>
+
+          <div class="card">
+            <h3>Jogos em grupo</h3>
+            <p>Sou bem competitiva rs.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FILMES -->
+
+      <section class="container" id="filmes">
+        <div class="section-title">
+          <h2>Top 5 Filmes</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card numero">
+            <span>1</span>
+            <p>O Poderoso Chefão II</p>
+          </div>
+
+          <div class="card numero">
+            <span>2</span>
+            <p>Irmão Urso</p>
+          </div>
+
+          <div class="card numero">
+            <span>3</span>
+            <p>Mamma Mia!</p>
+          </div>
+
+          <div class="card numero">
+            <span>4</span>
+            <p>Before Sunset</p>
+          </div>
+
+          <div class="card numero">
+            <span>5</span>
+            <p>Incendies</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section class="container sobre-grid">
+        <div class="sobre-img">
+          <img src="assets/img/voluntariado.png" alt="Foto com Mochilão" />
+        </div>
+
+        <div class="sobre-texto">
+          <h2>Um sonho realizado: meu mochilão em 2025</h2>
+
+          <p>
+            Uma das conquistas que mais me orgulho foi ter realizado, sozinha,
+            um grande sonho: fazer um mochilão pela Espanha, Itália e Marrocos.
+            Para conseguir realizar essa experiência, fiz todo o planejamento,
+            organização e investimento da viagem, saindo completamente da minha
+            zona de conforto e desenvolvendo ainda mais minha autonomia e
+            confiança.
+          </p>
+
+          <h2>Aprendizados além das fronteiras</h2>
+
+          <p>
+            Além de conhecer novas culturas e pessoas de diferentes partes do
+            mundo, participei de experiências de voluntariado em hostels e
+            agroturismo, onde trabalhei com equipes multiculturais, pratiquei
+            idiomas e melhorei muito habilidades como comunicação, adaptação e
+            resolução de problemas. Essa jornada transformou minha forma de
+            enxergar desafios e reforçou minha capacidade de aprender, me
+            reinventar e criar conexões em novos ambientes. Sou muito grata por
+            tudo que vivi e aprendi durante essa jornada.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+
+      <section class="container contato" id="contato">
+        <div class="contato-info">
+          <h2>Entre em contato!</h2>
+
+          <p>Gostou da página? Me envie uma mensagem.</p>
+        </div>
+
         <form>
-          <input type="text" placeholder="Nome completo*" />
-          <textarea rows="4" placeholder="Feedback"></textarea>
-          <button type="button">Enviar</button>
+          <label>Nome:</label>
+          <input type="text" />
+
+          <label>Assunto:</label>
+          <input type="text" />
+
+          <label>Descrição</label>
+          <textarea></textarea>
+
+          <button class="btn">Enviar</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <div>
-        <a href="https://github.com/claudiabeathriz" target="_blank"
-          >Página no GitHub</a
-        >
-        <a href="site.html">Home</a>
-        <a href="contact-claudia.html">Contato</a>
+      <div class="container footer">
+        <div>
+          <a href="https://github.com/claudiabeathriz" target="_blank">
+            GitHub
+          </a>
+
+          <a href="https://linkedin.com/in/claudiabopacheco" target="_blank">
+            LinkedIn
+          </a>
+        </div>
+
+        <p>© 2026 Claudia Pacheco</p>
       </div>
     </footer>
   </body>
